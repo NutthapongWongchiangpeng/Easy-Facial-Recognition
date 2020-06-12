@@ -1,0 +1,21 @@
+#!/bin/bash
+
+name="LogYou VisibleOne"
+
+if [[ -z $1 ]]
+then
+        echo "$name by UIH"
+elif [[ $1 == "-i" ]]
+then
+        echo "* Program:        $name by UIH"
+        echo "* Company:        United Information Highway Co., Ltd."
+        echo "* Tel:            +66 2016 5678"
+        echo "* Email:          cc_support@uih.co.th"
+elif [[ $1 == "-v" ]]
+then
+        echo $build
+else
+        echo "Try 'logyou -i' to check logyou info"
+        echo "Try 'logyou -v' to check logyou version"
+        echo "Try 'logyou' to check full program's name"
+fi

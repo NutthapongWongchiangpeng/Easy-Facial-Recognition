@@ -1,0 +1,14 @@
+#Type support
+# syslog-basic
+# palo-alto
+# fortigate
+# windows-eventlog
+# netflow
+# NSX
+# other
+# Squid-Proxy
+# BlueCoat-Proxy
+# watchguard
+# hillstone
+
+# "localhost": other
